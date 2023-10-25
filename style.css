@@ -1,0 +1,115 @@
+
+*{
+margin: 0;
+padding: 0;
+
+}
+body
+{
+    font-family: Calbri,sans-serif;
+    text-align: center;
+}
+h1
+{
+     font-size: 80px;
+     color: black;
+}
+p{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: cadetblue;
+    padding-bottom: 15px;
+}
+header{
+    background: linear-gradient(45deg,teal,lightseagreen);
+    padding: 25px;
+}
+header h1{
+        color: whitesmoke;
+}
+nav{
+    background-color: lightcyan;
+}
+nav a{
+    text-decoration: none;
+    padding: 25px 25px;
+    display: inline-block;
+    font-size: 25px;
+    color: black;
+}
+nav a:hover{
+    background-color:lightseagreen;
+    color: whitesmoke;
+}
+.home{
+    padding: 50px;
+}
+img{
+    height: 300px;
+    width: 25%;
+}
+.packages figure{
+    box-shadow: 0 0 10px black;
+        width:300px;
+        display: inline-block;
+        padding: 15px;
+        margin: 25px;
+}
+.packages figure img{
+width: 100%;
+}
+.packages figure figcaption{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.packages figure p{
+    font-size: 18px;
+}   
+.foot{
+    background-color: grey;
+    color: whitesmoke;
+    padding:20px;
+    margin-top:20px;
+}
+.box{
+    padding: 5px;
+    border: 3px solid lightseagreen;
+    margin: 80px auto;
+    box-shadow: 0 0 10px black;
+}
+.box img{
+    max-width: 300px;
+    height:300px;
+    display:block;
+    object-fit:cover;
+    padding:auto;
+    box-shadow: 0 0 10px black;
+    
+}
+.box .heading,
+.box .text{
+    width: 100%;
+    padding: 0 5px;
+    min-width: 300px;    
+
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width:100%;
+    height:auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
